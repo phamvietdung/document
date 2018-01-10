@@ -1,0 +1,32 @@
+ReactJS là thư viện JavaScript sử dụng để xây dựng các thành phần UI có thể dùng lại được.
+
+ReactJS là thư viện xây dựng các components sử dụng interfaces. ReactJS khuyến khích việc sử dụng lại UI. Có rất nhiều
+người sử dụng ReactJS với mô hình MVC.
+
+ReactJS cung cấp cho chúng ta một simple programing model và performance rất tốt.
+
+ReactJS có thể render trên server sử dụng Node, và có sức mạnh của một native apps sử dụng React Native.
+
+Luồng ReactJS thực hiện là luồng 1 chiều nên điều đó trở nên đơn giản hơn so với cách binding truyền thống.
+
+
+CÁC TÍNH NĂNG CỦA REACTJS
+
+- JSX : JSX là phần mở rộng của JavaScript syntax. Trong quá trình phát triển không cần thiết sử dụng JSX nhưng theo ý
+kiến cá nhân thì nên sử dụng.
+- Components : React tất cả là components. Với React bạn có thể components tất cả mọi thứ. Điều đó giúp duy trì code tốt
+hơn trong trường hợp project được mở rộng.
+- Luồng dữ liệu đa chiều và Flux - Reat thực hiện luồng dữ liệu theo 1 chiều. Flux là một pattern giúp giữ data thành luồng
+dữ liệu đa chiều.
+
+REACTJS NÂNG CAO
+
+- Có thể sử dụng làm client và server như các Frameworks khác.
+- Việc sử dụng virtual DOM là JavaScript object. Performance app sẽ nhanh hơn regular DOM.
+- Sử dụng các component và cải tiến dữ liệu dễ đọc giúp cho việc bảo trì dễ dàng hơn.
+
+HẠN CHẾ CỦA REACTJS
+
+- Reacjs chỉ giúp thực hiện công việc liên quan tới View Layer, vi thế vẫn cần chọn các công nghệ khác để thực hiện app
+một cách hoàn chỉnh.
+- Việc inline templating và JSX ban đầu có thể gây khó khăn với nhà phát triển.
