@@ -1,2 +1,3 @@
 # document
-document about something
+
+js/scope.js : about scope
