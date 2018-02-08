@@ -28,6 +28,33 @@
 	x = '123';
 })();
 
+/*********************
+******* SCOPE ********
+*********************/
+
+(function(){
+	var a = b = 5; // a is local scope ( cause var ), but b is global scope
+}());
+
+console.log(b); // b = 5 
+
+// if use strict mode on
+
+(function(){
+	'use strict';
+	var a = b = 5; // a is local scope ( cause var ), but b is global scope
+}());
+
+console.log(b); // ERROR :  b is undefined 
+
+// solve this by that way
+
+(function(){
+	'use strict';
+	var a = window.b = 5;
+}());
+
+console.log(b); // b = 5 
 
 /*********************
 *** GLOBAL SCOPE *****
@@ -77,4 +104,14 @@ function getGender(){
 
 getGender();
 
- 
+
+/*********************
+*** NATIVE METHOD ***
+*********************/
+
+window.Number.prototype.square = window.Number.prototype.square || function(){
+	return this*this;
+}
+var a = 4;
+a.square() // 16 
+
